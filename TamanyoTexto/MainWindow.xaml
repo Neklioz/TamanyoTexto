@@ -1,0 +1,38 @@
+﻿<Window x:Class="TamanyoTexto.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:TamanyoTexto" mc:Ignorable="d" Title="TamanyoTexto" Height="450" Width="1000">
+    <Grid>
+
+        <TextBlock x:Name="TextoTextBlock" HorizontalAlignment="Left" Margin="21,73,0,0" TextWrapping="Wrap" Text="Desarrollo de Interfaces" TextAlignment="Center" VerticalAlignment="Top" Height="113" Width="948" FontWeight="Bold" FontSize="48" />
+
+        <RadioButton Content="Pequeño" Tag="Pequeño" HorizontalAlignment="Left" Margin="132,350,0,0" VerticalAlignment="Top" Height="15" Width="69" RenderTransformOrigin="0.5,0.5" Checked="TamañoFuenteChecked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="MedianoRadioButton" Tag="Mediano" Content="Mediano" HorizontalAlignment="Left" Margin="481,350,0,0" VerticalAlignment="Top" Height="15" Width="69" RenderTransformOrigin="0.5,0.5" Checked="TamañoFuenteChecked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton Content="Grande" Tag="Grande" HorizontalAlignment="Left" Margin="822,350,0,0" VerticalAlignment="Top" Height="15" Width="60" RenderTransformOrigin="0.5,0.5" Checked="TamañoFuenteChecked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+
+    </Grid>
+</Window>
